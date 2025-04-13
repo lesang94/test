@@ -31,7 +31,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script dead rails OP"})
-     
+
+     local Tab1o = MakeTab({Name = "Script Blue Lock OP"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -52,5 +53,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "null fire no key OP",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))() 
+  end
+  })    
+
+AddButton(Tab2o, {
+     Name = "no skill cooldown OP",
+    Callback = function()
+	local C=require(game:GetService("ReplicatedStorage").Controllers.AbilityController)
+local o=C.AbilityCooldown C.AbilityCooldown=function(s,n,...)return o(s,n,0,...)end
   end
   })    
