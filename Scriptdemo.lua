@@ -30,9 +30,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script dead rails OP"})
-
-     local Tab1o = MakeTab({Name = "Script Blue Lock OP"})
+     local Tab1o = MakeTab({Name = "Script dead rails OP"}
+     local Tab2o = MakeTab({Name = "Script Blue Lock OP"})
 ------- BUTTON
     
     AddButton(Tab1o, {
