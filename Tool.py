@@ -600,7 +600,8 @@ def print_banner():
 \033[1;31m\033[1m\033[1m██║░░██║██╔══╝░░
 \033[1;33m\033[1m██████╔╝███████╗
 ╚═════╝░╚══════╝
-\033[1;36m⭐️ DEVELOPED BY: \033[1;97mSANGCODE
+\033[1;36m⭐️ DEVELOPED BY: \033[1;97mSangCodeDZ
+
 \033[1;36m⭐️ TELE   : \033[1;97mkhong co
 \033[1;36m⭐️ NHÓM       : \033[1;97mkhong co
 \033[1;36m⭐️ WEBSITE    : \033[1;97mkhong co
@@ -745,7 +746,7 @@ def start_animation():
     """Animation khởi động chương trình"""
     clear_screen()
     print("\n\n")
-    animate_text("🌟 ĐANG KHỞI ĐỘNG TIKTOK TOOL SIÊU VIP CỦA ANHCODE 🌟", Fore.MAGENTA)
+    animate_text("🌟 ĐANG KHỞI ĐỘNG TIKTOK TOOL SIÊU VIP CỦA SANGCODE 🌟", Fore.MAGENTA)
     print("\n")
     
     # Loading bar
@@ -893,7 +894,7 @@ def main():
 if __name__ == '__main__':
     # Cập nhật thời gian và user hiện tại
     CURRENT_TIME = format_time()  # Sử dụng thời gian thực
-    CURRENT_USER = "AnhCode"
+    CURRENT_USER = "SangCode"
     
     # Khởi chạy chương trình
     main()
